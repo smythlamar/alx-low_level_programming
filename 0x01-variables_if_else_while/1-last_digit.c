@@ -3,10 +3,10 @@
 /* more headers goes there */
 #include <stdio.h>
 /* betty style doc for function main goes there*/
-/*
- * main - main function
+/**
+ * main - last digits of numbers
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -27,7 +27,7 @@ int main(void)
 	}
 	else if(last_digit < 6 && last_digit != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0", n, last_digit);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, last_digit);
 	}
 	return (0);
 }
