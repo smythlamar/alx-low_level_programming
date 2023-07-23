@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - func prints the numbers from 1-100, but for multiples of three,
+ * main - func printf the numbers from 1-100, but for multiples of three,
  * Fizz is printed insteas of th number, for multiples of five,
  * Buzz, and for multiples of both three and five, FizzBuzz
  *
@@ -22,7 +22,7 @@ int main(void)
 			printf("Buzz");
 
 		else
-			print("%d", num);
+			printf("%d", num);
 
 		if (num == 100)
 			continue;
