@@ -1,9 +1,8 @@
 #include "main.h"
-
 /**
- * print_square - func print a square
- * @size: size of the square
- * Description: Can only use _putchar to print. Use '#' print square
+ * print_square - function print a square
+ * @size: size of square
+ * Description: Can only use _putchar to print. Use '#' to print square
  */
 void print_square(int size)
 {
@@ -23,6 +22,6 @@ void print_square(int size)
 			x++;
 		}
 		_putchar('\n');
-		y++
+		y++;
 	}
 }
